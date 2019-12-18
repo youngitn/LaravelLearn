@@ -43,7 +43,7 @@ Route::get('/about_us/{name}', function ($name) {
 
 Route::get('/inspire', 'InspiringController@inspire');
 
-//
+
 Route::get('/test', function(){
     return App\Post::all();
 });
